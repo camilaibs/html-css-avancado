@@ -1,12 +1,12 @@
 .portfolio li {
     display: inline-block;
-    border: 2.5rem solid black;
+    border: .5em solid black;
     background-color: #FAFFFC;
     width: 45%;
     box-sizing: border-box;
-    padding: 1.25rem;
-    margin-right: 1.25rem;
-    margin-bottom: 1.25rem;
+    padding: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
 }
 
 .portfolio img {
