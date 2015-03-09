@@ -1,3 +1,7 @@
+header {
+    position: relative;
+}
+
 .javascript {
     top: 5%;
     left: 60%;
@@ -59,40 +63,113 @@
     position: absolute;
 }
 
-.inicio-post {
-    color: black;
-    background-color: white;
-    position: absolute;
-    top: 3em;
-    right: 3em;
-    height: 6em;
-}
-
 .foto-home {
     height: 200px;
 }
+
 .saudacao p {
     font-size: 1.5em;
     color: #99A;
     line-height: 1;
     padding: 2em;
 }
-.saudacao-inicio {
-    font-size: 3em;
-    color: #889;
-}
-.saudacao-ultima-linha {
-    text-align: right;
-    display: block;
-}
+
 .saudacao strong {
     font-size: 2em;
     color: #000;
 }
+
 .saudacao em {
     color: #851944;
     font-size: 4em;
 }
+
+.saudacao-inicio {
+    font-size: 3em;
+    color: #889;
+}
+
+.saudacao-ultima-linha {
+    text-align: right;
+    display: block;
+}
+
+.secao-inicio {
+    padding: 2em;
+}
+
+.secao-inicio h2 {
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+}
+
+.trabalhos {
+    background-color: #3C1D3D;
+    border-top: .5em solid #000;
+    border-bottom: .5em solid #000;
+}
+
+.trabalhos h2 {
+    color: #FFF;
+}
+
+.trabalhos ul {
+    overflow: hidden;
+    border: .5em solid black;
+}
+
+.trabalhos li {
+    float: left;
+    width: 33.333%;
+}
+
+.trabalhos img {
+    width: 100%;
+    display: block;
+}
+
+.blog .inicio-post {
+    position: absolute;
+    top: 4em;
+    height: 8em;
+    left: 30%;
+    right: 4em;
+    background-color: #F2FFFC;
+    color: #000;
+    padding: 1.5em
+}
+
+.blog {
+    background-color: #999;
+    color: #FFF;
+    border-bottom: .5em solid #851944;
+    position: relative;
+}
+
+.blog small {
+    position: relative;
+    top: -2em;
+}
+
+.blog li {
+    width: 30%;
+}
+
+.blog li a {
+    color: #FCF;
+    padding: .5em;
+    display: block;
+}
+
+.blog .mais-recente {
+    background-color: #F2FFFC;
+}
+
+.blog .mais-recente a {
+    color: #F26;
+}
+
 .botao-index {
     font-size: 1.25em;
     background-color: #851944;
@@ -104,62 +181,23 @@
     display: block;
     text-align: center;
 }
-.secao-inicio {
-    padding: 2em;
-}
-.secao-inicio h2 {
-    font-size: 3em;
-    text-transform: uppercase;
-    margin-bottom: .5em;
-}
-.trabalhos {
-    background-color: #3C1D3D;
-    border-top: .5em solid #000;
-    border-bottom: .5em solid #000;
-}
-.trabalhos h2 {
-    color: #FFF;
-}
-.trabalhos ul {
-    overflow: hidden;
-    border: .5em solid black;
-}
-.trabalhos li {
-    float: left;
-    width: 33.333%;
-}
-.trabalhos img {
-    width: 100%;
-    display: block;
-}
-.blog {
-    background-color: #999;
-    color: #FFF;
-    border-bottom: .5em solid #851944;
-    position: relative;
-}
-.blog small {
-    position: relative;
-    top: -2em;
-}
-.blog li a {
-    color: #FCF;
-    padding: .5em;
-    display: block;
-}
+
 footer {
     background-color: #000;
     color: #FFF;
     padding: 2em;
 }
-footer h2 {
-    font-size: 3em;
-}
-footer a {
-    color: #F99;
-}
+
 main {
     width: 100%;
     padding-bottom: 0;
     float: none;
+}
+
+footer h2 {
+    font-size: 3em;
+}
+
+footer a {
+    color: #F99;
 }
